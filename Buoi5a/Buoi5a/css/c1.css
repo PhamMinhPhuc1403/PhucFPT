@@ -1,0 +1,149 @@
+* { margin: 0; padding:0 ; box-sizing: border-box;}
+a { text-decoration: none;}
+html { scroll-behavior: smooth;}
+nav {
+    background-color: #27837B;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    box-shadow: 0 4px 2px -2px gray;
+    z-index: 1000;
+  }
+  
+  nav a {
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 0 20px;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  nav a:hover {
+    color: #FFD700; /* Gold for hover effect */
+  }
+  
+  nav img {
+    max-height: 50px;
+    vertical-align: middle;
+  }
+  
+/* Mobile responsive adjustments (optional) */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column; /* Xếp các phần tử theo cột khi trên mobile */
+        height: auto; /* Cho phép chiều cao tự động điều chỉnh */
+        padding: 10px 0;
+    }
+
+    nav a {
+        margin: 10px 0; /* Tăng khoảng cách giữa các liên kết khi ở mobile */
+    }
+}
+
+h2 > a {
+    color: red;
+    border-radius: 50%;
+    border: 1px solid #27837B;
+    width: 30px; height: 30px;
+    display: inline-block;
+   
+    background-color: #27837B;
+}
+#gotop { 
+    color: white;
+    border-radius: 50%;
+    font-size: 1.2em;
+    border: 1px solid #27837B;
+     padding: 10px 15px;
+    display: inline-block;
+    background-color: darkblue;
+    position: fixed; bottom: 20px; right: 10px;
+}
+#dich_vu { 
+    background-color: #E8F3FD;  
+    padding-top: 40px; 
+}
+#dich_vu > h2 { 
+    color: #002D95; 
+    text-align: center;  
+    text-transform: uppercase;  
+} 
+#dich_vu #data { 
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+#dich_vu #data  > div { 
+    width: 23%; 
+    text-align: center; 
+    font-size: 1.2em; 
+    margin: 10px; 
+}
+#dich_vu #data  > div  h4 { 
+    color: #002160; text-transform: uppercase; 
+} 
+#dich_vu #data  > div  img { 
+    width: 60%; height: 120px; margin: 10px; 
+}
+#dich_vu #data  > div  img:hover { transform: scale(1.1); cursor: pointer;}
+
+#khach_san { background-color: #B8EDE0;  padding-top: 40px; }
+#khach_san > h2 { color:#002D95; text-align: center;  text-transform: uppercase; } 
+#khach_san #data { display: flex;  flex-wrap: wrap; justify-content: space-between;}
+#khach_san #data  > div { width: 30%; text-align: center; font-size: 1.2em; margin: 10px; }
+#khach_san #data  > div  h4{  color: #002160; text-transform: uppercase; } 
+#khach_san #data  > div  img { width: 90%; height: 450px; margin: 10px; border-radius: 30px; }
+
+#chi_nhanh {
+    background-color: #E8F3FD;
+    padding-top: 40px;
+}
+
+#chi_nhanh > h2 {
+    color: #002D95;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#chi_nhanh #data {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#chi_nhanh #data > div {
+    width: 30%; /* Đặt width cho 3 tin tức trên hàng */
+    text-align: center;
+    font-size: 1.2em;
+    margin: 10px 0; /* Giảm margin cho gọn gàng hơn */
+}
+
+#chi_nhanh #data > div h4 {
+    color: #002160;
+    text-transform: uppercase;
+}
+
+#chi_nhanh #data > div img {
+    width: 100%; /* Đảm bảo ảnh chiếm toàn bộ chiều rộng của div */
+    height: 360px;
+    margin: 10px;
+    border: 1px solid #002160;
+    border-radius: 20px;
+}
+
+
+#bang_gia { background-color: #B8EDE0;  padding-top: 40px; }
+#bang_gia > h2 { color:#002D95; text-align: center;  text-transform: uppercase;} 
+#bang_gia #data { border:  1px solid #002160; width: 80%; margin:auto; }
+#bang_gia #data  > div {
+    font-size: 1.5em;   display: flex; justify-content: space-between;
+    border-bottom:  1px solid #002160; padding: 15px; }
+#bang_gia #data  > div  h4{  color: #002160; text-transform: uppercase; } 
+footer { background: #27837B; height: 60px; text-align: center; line-height: 60px;
+            color: white; font-size: 1.5em; }
+
+    

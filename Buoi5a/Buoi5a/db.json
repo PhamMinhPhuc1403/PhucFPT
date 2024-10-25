@@ -1,0 +1,89 @@
+{
+    "dich_vu":[
+        {"id":"1", "ten":"Cấy Ghép Implant", 
+          "hinh":"https://nhakhoatamducsmile.com/data/upload/Implant-1710230949-.jpg"},
+        {"id":"2", "ten":"TRÁM RĂNG THẨM MỸ", 
+          "hinh":"https://nhakhoatamducsmile.com/data/upload/tram-rang-tham-my-1710231201-.jpg"},
+        {"id":"3", "ten":"CẠO VÔI RĂNG", 
+          "hinh":"https://nhakhoatamducsmile.com/data/upload/cao-voi-rang-1710231237-.jpg"},
+        {"id":"4", "ten":"NHỔ RĂNG THƯỜNG", 
+          "hinh":"https://nhakhoatamducsmile.com/data/upload/nho-rang-thuong-1710231292-.jpg"},
+        {"id":"5", "ten":"NỘI NHA CHỮA TUỶ", 
+          "hinh":"https://nhakhoatamducsmile.com/data/upload/noi-nha-chua-tuy-1710231220-.jpg"},
+        {"id":"6", "ten":"CẮT NẠO CHÓP", 
+          "hinh":"https://nhakhoatamducsmile.com/data/upload/cat-nao-chop.jpg"},
+        {"id":"7", "ten":"NHỔ RĂNG KHÔN", 
+          "hinh":"https://nhakhoatamducsmile.com/data/upload/nho-rang-khon-1710231211-.jpg"},
+        {"id":"8", "ten":"HÀM GIẢ THÁO LẮP", 
+          "hinh":"https://nhakhoatamducsmile.com/data/upload/ham-gia-thao-lap-1710231228-.jpg"}
+    ],
+    "chi_nhanh":[
+        {"id":"1", "ten":"140 Lý Thái Tổ, Quận 10", 
+          "hinh":"https://nhakhoatamducsmile.com/data/upload/q3.png"},
+        {"id":"2", "ten":"52 Tân Kỳ Tân Quý, Quận Tân Phú", 
+          "hinh":"https://nhakhoatamducsmile.com/data/upload/tanphu-1716005911-.png"},
+        {"id":"3", "ten":"66 Bình Thành, Quận Bình Tân", 
+          "hinh":"https://nhakhoatamducsmile.com/data/upload/binh-thanh-binh-tan.png"},
+        {"id":"4", "ten":"361 Phan Văn Trị, Quận Bình Thạnh", 
+         "hinh":"https://nhakhoatamducsmile.com/data/upload/chinhnhbinhthanh-1725501473-.png"},
+        {"id":"5", "ten":"196 Lũy bán Bích, Quận Tân Phú", 
+          "hinh":"https://nhakhoatamducsmile.com/data/upload/chinhnhlybnbch-1708318540-.png"},
+        {"id":"6", "ten":"50 Lê Văn Việt, TP Thủ Đức", 
+         "hinh":"https://nhakhoatamducsmile.com/data/upload/hnhchinhnhwebq9-1700796056-.jpg"},
+        {"id":"7", "ten":"76 Phạm Hồng Thái, Quận 1", 
+         "hinh":"https://nhakhoatamducsmile.com/data/upload/q11.png"},
+        {"id":"8", "ten":"513 Hoàng Văn Thụ, Quận Tân Bình", 
+          "hinh":"https://nhakhoatamducsmile.com/data/upload/tnbnh-1678680472-.png"}
+    ],
+    "bang_gia": [
+    {"id": "1", "ten": "Phòng Đơn", "gia": "800000" },
+    {"id": "2", "ten": "Phòng Đôi", "gia": "1200000" },
+    {"id": "3", "ten": "Phòng Gia Đình", "gia": "1500000" },
+    {"id": "4", "ten": "Phòng Sang Trọng", "gia": "3000000" },
+    {"id": "5", "ten": "Phòng Biển", "gia": "2000000" },
+    {"id": "6", "ten": "Phòng VIP", "gia": "5000000" }
+],
+    "khach_san":[
+      { "id": 1, "title": "OMG!! SUPPER RẺ ngay Coop Mart Cống Quỳnh -Giá yêu thương chỉ từ 4tr", "hinh": "1.jpg", "diachi": "Đà Nẵng", "dientich": "40m²", "gia": "1,000,000 VND" },
+      { "id": 2, "title": "TRỐNG SẴN Phòng Có sân thượng chill, rộng. giá chỉ 6.900.000/tháng", "hinh": "2.jpg", "diachi": "Vũng Tàu", "dientich": "35m²", "gia": "1,200,000 VND" },
+      { "id": 3, "title": "Phòng DUPLEX có ban công cửa sổ full nội thất giá chỉ 6xxx gần Đảo Kim Cương Quận 2", "hinh": "3.jpg", "diachi": "Sapa", "dientich": "50m²", "gia": "900,000 VND" },
+      { "id": 4, "title": "Cho thuê Hệ thống phòng mới xây giá rẻ ngay tại Citisoho, citihome, UMT Quận 2", "hinh": "4.jpg", "diachi": "Hà Nội", "dientich": "60m²", "gia": "2,500,000 VND" },
+      { "id": 5, "title": "STUDIO FULL NỘI THẤT 4.3TR LÊ VĂN SỸ, QUẬN 3", "hinh": "5.jpg", "diachi": "Phú Quốc", "dientich": "100m²", "gia": "5,000,000 VND" },
+      { "id": 6, "title": "CHO THUÊ PHÒNG TRỌ – TIỆN NGHI MỚI XÂY 100%", "hinh": "6.jpg", "diachi": "TP. Hồ Chí Minh", "dientich": "30m²", "gia": "1,800,000 VND" },
+      { "id": 7, "title": "Heritage Hotel", "hinh": "7.jpg", "diachi": "Huế", "dientich": "45m²", "gia": "1,300,000 VND" },
+      { "id": 8, "title": "Peaceful Retreat", "hinh": "8.jpg", "diachi": "Đà Lạt", "dientich": "55m²", "gia": "1,700,000 VND" },
+      { "id": 9, "title": "Skyline Hotel", "hinh": "9.jpg", "diachi": "Hạ Long", "dientich": "42m²", "gia": "1,600,000 VND" }
+    ],
+    "tin_tuc":[
+     
+        {
+          "id": 1,
+          "hinh": "11.png",
+          "desc": "Nội qui và chính sách phòng tại Khách sạn Phát Lộc."
+        },
+        {
+          "id": 2,
+          "hinh": "12.png",
+          "desc": "Du Lịch Phan Thiết Và Những Điểm Đến Không Thể Bỏ Qua"
+        },
+        {
+          "id": 3,
+          "hinh": "13.png",
+          "desc": "Đừng Đi Du Lịch Phan Thiết - Mũi Né, Nếu Bạn Vẫn Chưa Thủ Sẵn Bí Kíp Này"
+        },
+        {
+          "id": 4,
+          "hinh": "14.png",
+          "desc": "12 địa điểm du lịch Phan Thiết đẹp và hấp dẫn nhất."
+        },
+        {
+          "id": 5,
+          "hinh": "15.png",
+          "desc": "Du lịch Phan Thiết: Cẩm nang từ A đến Z (Cập nhật thông tin mới nhất 2021)"
+        }
+      ]
+      
+    
+    
+    }
+    

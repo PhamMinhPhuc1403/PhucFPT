@@ -1,0 +1,49 @@
+<!DOCTYPE html><html>
+<head> 
+    <title>Phòng khám Tâm Thành</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/c1.css">
+</head>
+<body>
+<div class="container">
+<header> </header>
+<nav>
+    <img id="ctl00_Header_imgLogo" src="images/c.png" alt="Phát Lộc Hotel" style="border-width:0px;">
+    <a href="#top">Trang chủ</a>
+    <a href="#dich_vu">Giới thiệu</a>
+    <a href="#khach_hang">Khách sạn</a>
+    <a href="#chi_nhanh">Tin tức</a>
+    <a href="#bang_gia">Bảng giá</a>
+</nav>
+<main>
+    <a href="#top" id="gotop">&#8679;</a>
+    <section id="dich_vu">
+        <h2>Các dịch vụ </h2>
+        <div id="data"></div>
+    </section>
+    <section id="khach_san">
+        <h2>Khách sạn tốt nhất <a href="#top">&#8657;</a></h2>
+        <div id="data"></div>
+    </section>
+    <section id="chi_nhanh">
+        <h2>Các chi nhánh <a href="#top">&#8657;</a></h2>
+        <div id="data"></div>
+    </section>
+    <section id="bang_gia">
+        <h2>Bảng giá tham khảo  <a href="#top">&#8657;</a> </h2>
+        <div id="data"></div>
+    </section>
+</main>
+<footer> PS29878 Phạm Minh Phúc </footer>
+</div>
+</body> </html>
+
+<script type="module">
+import {showlistdichvu , showlistkhachsan, showlistTintuc} from  './js/app.js'
+import {showbanggia } from  './js/app.js'
+document.querySelector("#dich_vu #data").innerHTML = await showlistdichvu()
+document.querySelector("#khach_san #data").innerHTML = await showlistkhachsan(); 
+document.querySelector("#chi_nhanh #data").innerHTML = await showlistTintuc();
+document.querySelector("#bang_gia #data").innerHTML = await showbanggia();
+
+</script>
